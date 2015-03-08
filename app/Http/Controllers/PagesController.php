@@ -18,6 +18,7 @@ class PagesController extends Controller {
         $last ="MS";
         $cycle="Trek";
         $hobby="Cycling";
+        $fitness="Stair climbing";
         return view('page.about',  compact('first','last','cycle'));
     }
 
